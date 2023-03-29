@@ -45,11 +45,14 @@
 
 .skills h1 {
   color: #3e497a;
+  display: flex;
+  justify-content: center;
 }
 
 .skills .list {
   list-style: none;
   width: 60%;
+  align-items: center;
 }
 
 .list span {
@@ -76,5 +79,6 @@
 
   .skills h2 {
     font-size: 30px;
+
   }
 }
